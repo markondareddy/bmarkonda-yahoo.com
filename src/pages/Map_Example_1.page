@@ -1,0 +1,14 @@
+<apex:page controller="Map_Example_1">
+    <apex:form >
+        Cities : 
+        <apex:selectList size="1" value="{!citySelected}">
+            <apex:actionSupport event="onchange" action="{!search}" reRender="one" />
+            <apex:selectOptions value="{!cities}" />
+        </apex:selectList>
+        <br/><br/>
+        Places :
+        <apex:selectList size="1" id="one">
+            <apex:selectOptions value="{!places}" />
+        </apex:selectList>
+    </apex:form>
+</apex:page>

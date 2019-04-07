@@ -1,0 +1,8 @@
+<apex:page controller="Test_Contact_1" >
+    <apex:pageBlock title="Opportunity">
+        <apex:pageBlockTable value="{!opps}" var="a">
+        <apex:column value="{!a.Id}"/>
+            <apex:column value="{!a.Name}"/>
+        </apex:pageBlockTable>    
+    </apex:pageBlock>
+</apex:page>
