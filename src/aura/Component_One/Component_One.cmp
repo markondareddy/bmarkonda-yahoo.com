@@ -1,0 +1,5 @@
+<aura:component >
+    This is example one <br/>
+    This is example two <br/>
+    This is example three <br/>
+</aura:component>

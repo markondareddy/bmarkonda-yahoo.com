@@ -1,0 +1,31 @@
+<apex:page controller="Calculator_Class">
+    <apex:form >
+    <apex:pageBlock title="Calculator" id="pb">
+    
+        <apex:pageblockButtons location="top" >
+        <apex:commandButton value="Add" action="{!add}" reRender="pb"/>
+        <apex:commandButton value="Mul" action="{!mul}" reRender="pb"/>
+        <apex:commandButton value="Cancel" action="{!cancel}" reRender="pb"/>
+        </apex:pageblockButtons>  
+        
+        <apex:pageBlockSection columns="1">
+                <apex:pageblockSectionItem >
+                    <apex:outputLabel value="Enter Aval" />
+                    <apex:inputText value="{!aval}" />
+                </apex:pageblockSectionItem>
+                
+                <apex:pageblockSectionItem >
+                    <apex:outputLabel value="Enter Bval" />
+                    <apex:inputText value="{!bval}" />
+                </apex:pageblockSectionItem>
+                
+                <apex:pageblockSectionItem >
+                    <apex:outputLabel value="Result" />
+                    <apex:inputText value="{!cval}" />
+                </apex:pageblockSectionItem>   
+                                            
+           </apex:pageBlockSection>
+           
+    </apex:pageBlock>     
+    </apex:form>
+</apex:page>
