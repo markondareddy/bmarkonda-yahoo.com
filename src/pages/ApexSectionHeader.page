@@ -1,3 +1,0 @@
-<apex:page >
-  <apex:sectionHeader title="Employee" subtitle="NewEmployee" help="/apex/ApexSectionHeader" description="This sectionheader example"/>
-</apex:page>

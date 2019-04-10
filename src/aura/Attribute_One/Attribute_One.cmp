@@ -1,8 +1,0 @@
-<aura:component >
-    <aura:attribute name="empName" type="String" />
-    <aura:attribute name="empName1" type="String" />
-    <aura:attribute name="empName2" type="String" />
-    <aura:attribute name="salary" type="Decimal" default="1000" />
-    <aura:attribute name="course" type="String" description="Name of the course" />
-    	
-</aura:component>

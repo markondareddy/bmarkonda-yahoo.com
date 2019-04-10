@@ -1,7 +1,0 @@
-<apex:page Controller="Student">
-    
-    Student name : {!stdName} 
-	Age : {!age} 
-    Branch : {!branch}
-    
-</apex:page>
