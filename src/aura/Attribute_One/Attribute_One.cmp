@@ -1,0 +1,16 @@
+<aura:component >
+    <aura:attribute name="empName" type="String" />
+    <aura:attribute name="empName1" type="String" />
+    <aura:attribute name="empName2" type="String" />
+    <aura:attribute name="salary" type="Decimal" default="1000" />
+    <aura:attribute name="course" type="String" description="Name of the course" />
+    
+   Welcome to Devbranch code....
+   
+    Name : {!v.empName} <br/><br/>
+    Name : {!v.empName} <br/><br/>
+    Name1 : {!v.empName1} <br/><br/>
+    Name2 : {!v.empName1} <br/><br/>
+    Salary:{!v.salary}
+	
+</aura:component>

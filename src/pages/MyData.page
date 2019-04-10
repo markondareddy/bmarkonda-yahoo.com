@@ -1,0 +1,4 @@
+<apex:page controller="Class_2">
+    Name :  {!name}  <br/><br/>
+    City :{!city}
+</apex:page>
