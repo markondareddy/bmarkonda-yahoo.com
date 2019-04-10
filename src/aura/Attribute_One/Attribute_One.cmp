@@ -7,6 +7,10 @@
     
    Welcome to Devbranch code....
    
+   Newly added - this line
+   
+   welcome to second
+   
     Name : {!v.empName} <br/><br/>
     Name : {!v.empName} <br/><br/>
     Name1 : {!v.empName1} <br/><br/>
